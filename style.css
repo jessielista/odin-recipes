@@ -1,7 +1,12 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(235, 234, 233);
+  font-size: 25px;
+}
 h1 {
-  color: blue;
   text-align: center;
-  font-size: 40px;
+  font-size: 70px;
 }
 
 img {
@@ -10,4 +15,22 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#recipe-list {
+  text-align: center;
+  list-style-type: none;
+  font-size: 40px;
+}
+
+.recipe-photo {
+  width: 700px;
+  height: auto;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 40px;
+  text-decoration: underline;
 }
